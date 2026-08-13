@@ -1,1 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    max-width: 100vw;
+    font-family: Arial, sans-serif;
+    background-color: #FFF0F5; /* Fundo leve em tom suave */
+}
+
+header {
+    background-color: #FF69B4; /* Rosa Pink */
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    padding: 24px 16px;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+main {
+    background-color: #FFE4E1; /* Rosa Bebê */
+    color: #8B008B; /* Texto em tom escuro contrastante */
+    margin: 0 auto;
+    padding: 16px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+    background-color: #FFFFFF;
+    border: 2px solid #FF69B4; /* Borda Rosa Pink */
+    border-radius: 8px;
+
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+
+    flex: 1 1 300px;
+    max-width: 400px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.artigo-autor {
+    font-weight: bold;
+    color: #C71585;
+    margin: 8px 0;
+}
+
+.artigo-fonte {
+    font-size: 0.85rem;
+    font-style: italic;
+    color: #666;
+    margin: 8px 0;
+}
+
+button {
+    background-color: #FFE4E1;
+    border: 1px solid #FF69B4;
+    border-radius: 20px;
+    padding: 6px 12px;
+    margin: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #FF69B4;
+    color: #FFFFFF;
+}
